@@ -11,7 +11,7 @@ app.use(express.json());
 app.use(cors(
   {
     origin:["https://mern-stack-murex.vercel.app"],
-    methods:["POST","GET"},
+    methods:["POST","GET"],
     credentials:true
   }
 ));
